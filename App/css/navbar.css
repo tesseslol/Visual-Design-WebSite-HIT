@@ -1,0 +1,36 @@
+.navbar-primal {
+  background-color: #60a4c1;
+  color: #fff;
+}
+
+.navbar-primal {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 12px;
+  height: 35px;
+  justify-content: flex-start;
+  width: 100%;
+  padding: .5rem 0;
+}
+
+.navbar-primal > span:first-child {
+  margin-left: 70%;
+}
+.navbar-primal > span {
+  margin-left: 5%;
+}
+
+.navbar-continer {
+  margin-left: 9.06rem;
+  margin-right: 9.06rem;
+  max-width: 1560px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  padding-left: 7.2rem;
+  padding-right: 0;
+}
