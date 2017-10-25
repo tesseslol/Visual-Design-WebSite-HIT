@@ -5,6 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- boostrap css -->
   <link type="text/css" rel="stylesheet" href="dist/css/bootstrap-grid.css">
@@ -13,84 +14,174 @@
 
   <!-- my css -->
   <link type="text/css" rel="stylesheet" href="css/navbar.css">
+  <link type="text/css" rel="stylesheet" href="css/carosello.css">
 </head>
 
 <body>
   <header>
-    <div class="row">
-      <div class="navbar-primal">
-        <span>Email: info@hit-it.it</span>
-        <span>T: +39 346 22 16 093</span>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="navbar-primal col-12">
+          <span class="col offset-8 mr-5">Email: info@hit-it.it</span>
+          <span class="col">T: +39 346 22 16 093</span>
+        </div>
       </div>
-      <div class="navbar-continer">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
+    </div>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg justify-content-between navbar-light bg-light">
+        <a class="navbar-brand" href="#">
             <img src="img/hit_logo.png" width="230">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVIZI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">AZIENDA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PARTHNERSHIP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTATTI</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-md-5">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-md-5">
+              <a class="nav-link" href="#">SERVIZI</a>
+            </li>
+            <a class="nav-link ml-md-5" href="#">AZIENDA</a>
+            </li>
+            <li class="nav-item ml-md-5">
+              <a class="nav-link" href="#">PARTHNERSHIP</a>
+            </li>
+            <li class="nav-item ml-md-5">
+              <a class="nav-link" href="#">CONTATTI</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="carosello">
+      <div class="container">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">SERVIZI</a></p>
+          <p><a class="btn btn-danger btn-lg" href="#" role="button">INFORMATICI</a></p>
+        </div>
+        <p class="lead">Servizi integrati di sicurezza informatica</p>
       </div>
     </div>
   </header>
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3">Hello, world!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-    </div>
-  </div>
+
 
   <div class="container">
     <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    <h3 class="text-center">SERVIZI</h3>
+    <div class="row justify-content-md-center">
+      <div class="col-3">
+        <img class="mx-auto d-block" src="img\hit_simbol_safehit.png" alt="img\hit_simbol_safehit">
+        <h2 class="text-center">Heading</h2>
+        <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col-3 offset-1">
+        <img class="mx-auto d-block" src="img\hit_simbol_systemintegration.png" alt="img\hit_simbol_systemintegration">
+        <h2 class="text-center">Heading</h2>
+        <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+      <div class="col-3 offset-1">
+        <img class="mx-auto d-block" src="img\hit_simbol_sicurezza.png" alt="img\hit_simbol_sicurezza">
+        <h2 class="text-center">Heading</h2>
+        <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
         </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-
-    <hr>
-
-    <footer>
-      <p>&copy; Company 2017</p>
-    </footer>
   </div>
+
+  <div class="conteiner-fluid">
+    <div class="row">
+      <img class="col-5 offset-1" src="img\hit_azienda_01.jpg" alt="img\hit_azienda_01">
+      <div class="col-5">
+        <p>Titolo</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 offset-1">
+        <p>Lorem ipsum dolor sit amet, consectetur</p>
+        <p>Titolo</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
+      </div>
+      <img class="col-5 img-fluid" src="img\hit_azienda_02.jpg" alt="img\hit_azienda_02">
+    </div>
+  </div>
+
+  <!-- div con i sponsor -->
+  <div class="container">
+
+    <h3 class="text-center">Parthnership</h3>
+    <div class="row">
+      <img class="col-3" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
+      <img class="col-3" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
+      <img class="col-3" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
+      <img class="col-3" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
+    </div>
+  </div>
+
+  <!-- div con i form contatti -->
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <p>
+          <b>RICHIEDI INFORMAZIONI</b>
+        </p>
+        <form>
+          <div class="form-group row justify-content-end">
+            <div class="form-group col-12">
+              <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Name">
+            </div>
+            <div class="form-group col-12">
+              <input type="email" class="form-control form-control-sm col" id="colFormLabelSm" placeholder="Mail">
+            </div>
+            <div class="form-group col-12">
+              <textarea class="form-control col" id="exampleFormControlTextarea1" rows="3" placeholder="Richiesta"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-success offset-10">Success</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-6">
+        <h5>CONTATTI</h5>
+
+        <p>
+          <b>HIT Srl.</b><br>
+          <p>
+            Via R.Flowst. 6/A <br> 35135 - Padova, ITALY <br><br> T: +39 346 22 16 093 E: info@hit-it.it <br><br> P.IVA 03627760279
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google maps -->
+  <div>
+    <!-- Inserisci qui google maps -->
+  </div>
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-6 offset-1">
+        <div class="row">
+          <p class="col-4">
+            <b>HIT Srl.</b> <br><br> Via R.Flowst. 6/A <br> 35135 - Padova, ITALY
+          </p>
+          <p class="col-4">
+            <br><br> T: +39 346 22 16 093 <br> E: info@hit-it.it
+          </p>
+          <p class="col-4">
+            <br><br> P.IVA 03627760279
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- /container -->
 
   <!-- Optional JavaScript -->
