@@ -13,8 +13,9 @@
   <link type="text/css" rel="stylesheet" href="dist/css/bootstrap-reboot.css">
 
   <!-- my css -->
-  <link type="text/css" rel="stylesheet" href="css/navbar.css">
-  <link type="text/css" rel="stylesheet" href="css/carosello.css">
+  <link type="text/css" rel="stylesheet" href="css/header.css">
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+  <link type="text/css" rel="stylesheet" href="css/general.css">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
               <a class="nav-link" href="#">SERVIZI</a>
             </li>
             <a class="nav-link ml-md-5" href="#">AZIENDA</a>
-            </li>
+            </link>
             <li class="nav-item ml-md-5">
               <a class="nav-link" href="#">PARTHNERSHIP</a>
             </li>
@@ -60,8 +61,8 @@
     <div class="carosello">
       <div class="container">
         <div class="btn-group" role="group" aria-label="Basic example">
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">SERVIZI</a></p>
-          <p><a class="btn btn-danger btn-lg" href="#" role="button">INFORMATICI</a></p>
+          <p><a class="btn btn-primary btn-lg bold" href="#" role="button">SERVIZI</a></p>
+          <p><a class="btn btn-danger btn-lg bold" href="#" role="button">INFORMATICI</a></p>
         </div>
         <p class="lead">Servizi integrati di sicurezza informatica</p>
       </div>
@@ -69,60 +70,62 @@
   </header>
 
 
-
-  <div class="container">
-    <!-- Example row of columns -->
-    <h3 class="text-center">SERVIZI</h3>
-    <div class="row justify-content-md-center">
-      <div class="col-3">
-        <img class="mx-auto d-block" src="img\hit_simbol_safehit.png" alt="img\hit_simbol_safehit">
-        <h2 class="text-center">Heading</h2>
-        <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      </div>
-      <div class="col-3 offset-1">
-        <img class="mx-auto d-block" src="img\hit_simbol_systemintegration.png" alt="img\hit_simbol_systemintegration">
-        <h2 class="text-center">Heading</h2>
-        <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      </div>
-      <div class="col-3 offset-1">
-        <img class="mx-auto d-block" src="img\hit_simbol_sicurezza.png" alt="img\hit_simbol_sicurezza">
-        <h2 class="text-center">Heading</h2>
-        <p class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="conteiner-fluid">
-    <div class="row">
-      <img class="col-5 offset-1" src="img\hit_azienda_01.jpg" alt="img\hit_azienda_01">
-      <div class="col-5">
-        <p>Titolo</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
+  <main>
+    <div class="container">
+      <h3 class="text-center bold service__title">SERVIZI</h3>
+      <div class="row service justify-content-md-center">
+        <div class="col-3 service__info">
+          <span class="info__span"></span>
+          <img class="mx-auto d-block info__image" src="img\hit_simbol_safehit.png" alt="img\hit_simbol_safehit">
+          <h3 class="text-center info__title">Safe-Hit</h2>
+          <p class="text-center info__text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+        <div class="col-3 offset-1 service__info">
+          <span class="info__span"></span>
+          <img class="mx-auto d-block info__image" src="img\hit_simbol_systemintegration.png" alt="img\hit_simbol_systemintegration">
+          <h3 class="text-center info__title">System Integration</h2>
+          <p class="text-center info__text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+        <div class="col-3 offset-1 service__info">
+          <span class="info__span"></span>
+          <img class="mx-auto d-block info__image" src="img\hit_simbol_sicurezza.png" alt="img\hit_simbol_sicurezza">
+          <h3 class="text-center info__title">Sicurezza</h2>
+          <p class="text-center info__text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-5 offset-1">
-        <p>Lorem ipsum dolor sit amet, consectetur</p>
-        <p>Titolo</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
+
+    <div class="conteiner-fluid">
+      <div class="row">
+        <img class="col-5 offset-1" src="img\hit_azienda_01.jpg" alt="img\hit_azienda_01">
+        <div class="col-5">
+          <p>Titolo</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
+        </div>
       </div>
-      <img class="col-5 img-fluid" src="img\hit_azienda_02.jpg" alt="img\hit_azienda_02">
+      <div class="row">
+        <div class="col-5 offset-1">
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          <p>Titolo</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
+        </div>
+        <img class="col-5 img-fluid" src="img\hit_azienda_02.jpg" alt="img\hit_azienda_02">
+      </div>
     </div>
-  </div>
 
-  <!-- div con i sponsor -->
-  <div class="container">
+    <!-- div con i sponsor -->
+    <div class="container">
 
-    <h3 class="text-center">Parthnership</h3>
-    <div class="row">
-      <img class="col-3" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
-      <img class="col-3" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
-      <img class="col-3" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
-      <img class="col-3" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
+      <h3 class="text-center">Parthnership</h3>
+      <div class="row">
+        <img class="col-3" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
+        <img class="col-3" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
+        <img class="col-3" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
+        <img class="col-3" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
+      </div>
     </div>
-  </div>
-
+  </main>
   <!-- div con i form contatti -->
   <div class="container">
     <div class="row">

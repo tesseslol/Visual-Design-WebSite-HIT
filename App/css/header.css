@@ -26,4 +26,6 @@
 
 .carosello {
   background-image: url();
+  border-bottom: 5px #d06e59 solid;
+  margin-bottom: 75px;
 }
