@@ -41,6 +41,34 @@
 
 .info__title {
   font-size: 1.5rem;
-  margin-top: 8px;
   margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.contact {
+  background-color: #eeeeee;
+}
+
+.contact__form {
+  background-color: #eeeeee;
+  border-radius: 0;
+}
+
+
+.contact__form:focus {
+    background-color: #eeeeee;
+}
+
+.contact__text {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.contact__textarea {
+  overflow: hidden;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
 }

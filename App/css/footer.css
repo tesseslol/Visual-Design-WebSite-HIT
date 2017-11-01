@@ -1,0 +1,32 @@
+.footer {
+  background-color: #626262;
+}
+
+.footer__text  {
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+
+.footer__arrow {
+  border-radius: 100%;
+  content: '';
+  display: block;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: -62px;
+  margin-left: 46.88%;
+  cursor: pointer;
+}
+
+.keyboard_arrow_up {
+  background: url(../img/ic_keyboard_arrow.svg) center;
+  background-size: 110%;
+}
+
+.keyboard_arrow_up:active, .keyboard_arrow_up:hover {
+    color: #fff;
+    background-color: #427557;
+    border-color: #3d6d51;
+    box-shadow: 0 0 0 0.2rem rgba(84, 150, 111, 0.5);
+}

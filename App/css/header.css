@@ -19,13 +19,10 @@
   font-weight: bold;
 }
 
-.navbar-expand-lg .navbar-nav .nav-item .nav-link {
-  /*padding-left: 7.2rem;
-  padding-right: 0;*/
-}
-
 .carosello {
-  background-image: url();
+  background: url(../img/Rettangolo_10.png) bottom center;
   border-bottom: 5px #d06e59 solid;
   margin-bottom: 75px;
+  padding-top: 176px;
+  padding-bottom: 196px;
 }

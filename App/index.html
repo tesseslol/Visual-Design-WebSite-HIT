@@ -15,6 +15,7 @@
   <!-- my css -->
   <link type="text/css" rel="stylesheet" href="css/header.css">
   <link type="text/css" rel="stylesheet" href="css/main.css">
+  <link type="text/css" rel="stylesheet" href="css/footer.css">
   <link type="text/css" rel="stylesheet" href="css/general.css">
 </head>
 
@@ -98,19 +99,23 @@
 
     <div class="conteiner-fluid">
       <div class="row">
-        <img class="col-5 offset-1" src="img\hit_azienda_01.jpg" alt="img\hit_azienda_01">
-        <div class="col-5">
+        <div class="col-6">
+          <img class="img-fluid" src="img\hit_azienda_01.jpg" alt="img\hit_azienda_01">
+        </div>
+        <div class="col-6 bg-primary text-white">
           <p>Titolo</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-5 offset-1">
+        <div class="col-6 bg-success text-white">
           <p>Lorem ipsum dolor sit amet, consectetur</p>
           <p>Titolo</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum consectetur itaque, optio non vitae harum quod iusto incidunt magni ratione tempore aliquid nisi magnam, fuga assumenda nihil ullam eos debitis?</p>
         </div>
-        <img class="col-5 img-fluid" src="img\hit_azienda_02.jpg" alt="img\hit_azienda_02">
+        <div class="col-6">
+          <img class="img-fluid" src="img\hit_azienda_02.jpg" alt="img\hit_azienda_02">
+        </div>
       </div>
     </div>
 
@@ -118,67 +123,73 @@
     <div class="container">
 
       <h3 class="text-center">Parthnership</h3>
-      <div class="row">
-        <img class="col-3" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
-        <img class="col-3" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
-        <img class="col-3" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
-        <img class="col-3" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
-      </div>
-    </div>
+          <div class="row">
+            <img class="col-3" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
+            <img class="col-3" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
+            <img class="col-3" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
+            <img class="col-3" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
+          </div>
+        </div>
   </main>
   <!-- div con i form contatti -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-6">
-        <p>
-          <b>RICHIEDI INFORMAZIONI</b>
-        </p>
-        <form>
-          <div class="form-group row justify-content-end">
-            <div class="form-group col-12">
-              <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Name">
+      <div class="col-6 contact">
+        <div class="offset-2">
+          <p class="contact__text mt-4 mb-4">RICHIEDI INFORMAZIONI</p>
+          <form>
+            <div class="form-group row">
+              <div class="form-group col-11">
+                <input type="email" class="form-control contact__form form-control" id="colFormLabelSm" placeholder="Nome Cognome">
+              </div>
+              <div class="form-group col-11">
+                <input type="email" class="form-control contact__form form-control" id="colFormLabelSm" placeholder="Mail">
+              </div>
+              <div class="form-group col-11">
+                <textarea class="form-control contact__form contact__textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Richiesta"></textarea>
+              </div>
+              <div class="col-12 mb-4">
+                <button type="button" class="btn btn-success offset-9 px-4">INVIA</button>
+              </div>
             </div>
-            <div class="form-group col-12">
-              <input type="email" class="form-control form-control-sm col" id="colFormLabelSm" placeholder="Mail">
-            </div>
-            <div class="form-group col-12">
-              <textarea class="form-control col" id="exampleFormControlTextarea1" rows="3" placeholder="Richiesta"></textarea>
-            </div>
-            <div class="col-12">
-              <button type="button" class="btn btn-success offset-10">Success</button>
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-      <div class="col-6">
-        <h5>CONTATTI</h5>
-
-        <p>
-          <b>HIT Srl.</b><br>
+      <div class="col-6 bg-primary text-white">
+        <div class="ml-4">
+          <p class="contact__text mt-4 mb-5">CONTATTI</p>
           <p>
-            Via R.Flowst. 6/A <br> 35135 - Padova, ITALY <br><br> T: +39 346 22 16 093 E: info@hit-it.it <br><br> P.IVA 03627760279
+            <b>HIT Srl.</b><br>
+
+              Via R.Flowst. 6/A <br> 35135 - Padova, ITALY <br><br> T: +39 346 22 16 093 E: info@hit-it.it <br><br> P.IVA 03627760279
+
           </p>
-        </p>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Google maps -->
-  <div>
-    <!-- Inserisci qui google maps -->
+  <div id="map">
+
   </div>
 
-  <footer class="container-fluid">
+  <footer class="container-fluid footer py-4">
     <div class="row">
+      <div class="col-12">
+        <span class="footer__arrow bg-success keyboard_arrow_up">
+
+        </span>
+      </div>
       <div class="col-6 offset-1">
         <div class="row">
-          <p class="col-4">
+          <p class="col-4 footer__text">
             <b>HIT Srl.</b> <br><br> Via R.Flowst. 6/A <br> 35135 - Padova, ITALY
           </p>
-          <p class="col-4">
+          <p class="col-4 footer__text">
             <br><br> T: +39 346 22 16 093 <br> E: info@hit-it.it
           </p>
-          <p class="col-4">
+          <p class="col-4 footer__text">
             <br><br> P.IVA 03627760279
           </p>
         </div>
@@ -192,6 +203,23 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: 45.421514,
+        lng: 11.873011
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXkjPba8c8GyHwl_5TjbxjnRW4mYeZ_U&callback=initMap"></script>
 </body>
 
 </html>
