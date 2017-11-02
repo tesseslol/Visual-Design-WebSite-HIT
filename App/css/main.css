@@ -1,9 +1,5 @@
-.service {
-  margin-bottom: 72px;
-}
 .service__title {
   display: block;
-  margin-bottom: 72px;
 }
 
 .service__title::after {
@@ -13,7 +9,7 @@
   height: 5px;
   left: 50%;
   margin-left: -38px;
-  margin-top: 20px;
+  margin-top: 16px;
   position: absolute;
   width: 76px;
 }
@@ -21,8 +17,6 @@
 .service__info {
   border: 1px solid #626262;
   border-top: 5px solid #60a4c1;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .info__span {
@@ -43,6 +37,32 @@
   font-size: 1.5rem;
   margin-bottom: 16px;
   margin-top: 8px;
+}
+
+.about {
+
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.parthnership__text {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.parthnership__text::after {
+  background: #60a4c1;
+  content: '';
+  display: block;
+  height: 5px;
+  left: 50%;
+  margin-left: -38px;
+  margin-top: 16px;
+  position: absolute;
+  width: 76px;
 }
 
 .contact {
