@@ -65,6 +65,37 @@
   width: 76px;
 }
 
+.parthnership__image {
+  height: 89px;
+  margin: auto;
+}
+
+.parthnership__image1{
+    height: auto;
+    width: auto;
+    max-width: 20%;
+}
+
+.parthnership__image2{
+    height: auto;
+    width: auto;
+    max-width: 25%;
+    max-height: 70%;
+}
+
+.parthnership__image3{
+    height: auto;
+    width: auto;
+    max-width: 25%;
+    max-height: 95%;
+}
+
+.parthnership__image4{
+    height: auto;
+    width: auto;
+    max-width: 30%;
+}
+
 .contact {
   background-color: #eeeeee;
 }
