@@ -25,6 +25,21 @@ body {
     padding-top: 4rem;
 }
 
+.ml-6, .mx-6 {
+    margin-left: 4rem;
+}
+.mb-6, .my-6 {
+    margin-bottom: 4rem;
+}
+
+.mr-6, .mx-6 {
+    margin-right: 4rem;
+}
+
+.mt-6, .my-6 {
+    margin-top: 4rem;
+}
+
 .bg-primary {
     background-color: #60a4c1 !important;
 }

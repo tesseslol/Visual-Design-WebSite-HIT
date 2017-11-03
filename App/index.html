@@ -21,7 +21,7 @@
 
 <body>
   <header>
-    <div class="container-fluid">
+    <div class="container-fluid" id="home">
       <div class="row align-items-center">
         <div class="navbar-primal col-12">
           <span class="col offset-8 mr-5">Email: info@hit-it.it</span>
@@ -44,15 +44,15 @@
               <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item ml-md-5">
-              <a class="nav-link" href="#">SERVIZI</a>
+              <a class="nav-link" href="#servizi">SERVIZI</a>
             </li>
-            <a class="nav-link ml-md-5" href="#">AZIENDA</a>
+            <a class="nav-link ml-md-5" href="#azienda">AZIENDA</a>
             </link>
             <li class="nav-item ml-md-5">
-              <a class="nav-link" href="#">PARTHNERSHIP</a>
+              <a class="nav-link" href="#parthnership">PARTHNERSHIP</a>
             </li>
             <li class="nav-item ml-md-5">
-              <a class="nav-link" href="#">CONTATTI</a>
+              <a class="nav-link" href="#contatti">CONTATTI</a>
             </li>
           </ul>
         </div>
@@ -61,7 +61,7 @@
     <div class="carosello">
       <div class="container">
         <div class="btn-group" role="group" aria-label="Basic example">
-          <p><a class="btn btn-primary btn-lg bold" href="#" role="button">SERVIZI</a></p>
+          <p><a class="btn btn-primary btn-lg bold" href="#servizi" role="button">SERVIZI</a></p>
           <p><a class="btn btn-danger btn-lg bold" href="#" role="button">INFORMATICI</a></p>
         </div>
         <p class="lead">Servizi integrati di sicurezza informatica</p>
@@ -71,7 +71,7 @@
 
 
   <main>
-    <div class="container my-5">
+    <div class="container mt-5 mb-6" id="servizi">
       <h3 class="text-center bold mb-5 service__title">SERVIZI</h3>
       <div class="row service justify-content-md-center">
         <div class="col-3 service__info px-2 pb-3">
@@ -96,7 +96,7 @@
       </div>
     </div>
 
-    <div class="conteiner-fluid about">
+    <div class="conteiner-fluid about" id="azienda">
       <div class="row">
         <div class="col-6 fix-image">
           <img class="img-fluid" src="img\hit_azienda_01.jpg" alt="img\hit_azienda_01">
@@ -123,19 +123,18 @@
     </div>
 
     <!-- div con i sponsor -->
-    <div class="container">
-
+    <div class="container mt-5 mb-6" id="parthnership">
       <h3 class="text-center parthnership__text my-5">PARTHNERSHIP</h3>
-          <div class="row mb-5">
-            <img class="col-3 img-fluid fix-image pr-2" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
-            <img class="col-3 img-fluid fix-image pr-2" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
-            <img class="col-3 img-fluid fix-image pr-2" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
-            <img class="col-3 img-fluid fix-image" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
-          </div>
-        </div>
+      <div class="row mb-5">
+        <img class="col-3 img-fluid fix-image pr-2" src="img\hit_logo_microsoftpartner.png" alt="img\hit_logo_microsoftpartner">
+        <img class="col-3 img-fluid fix-image pr-2" src="img\hit_logo_sophos.png" alt="img\hit_logo_sophos">
+        <img class="col-3 img-fluid fix-image pr-2" src="img\hit_logo_trendmicro.png" alt="img\hit_logo_trendmicro">
+        <img class="col-3 img-fluid fix-image" src="img\hit_logo_microsoftaep.png" alt="img\hit_logo_microsoftaep">
+      </div>
+    </div>
   </main>
   <!-- div con i form contatti -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="contatti">
     <div class="row">
       <div class="col-6 contact">
         <div class="offset-2">
@@ -178,9 +177,9 @@
   <footer class="container-fluid footer py-4">
     <div class="row">
       <div class="col-12">
-        <span class="footer__arrow bg-success keyboard_arrow_up">
+        <a href="#home" class="footer__arrow bg-success keyboard_arrow_up">
 
-        </span>
+        </a>
       </div>
       <div class="col-6 offset-1">
         <div class="row">
